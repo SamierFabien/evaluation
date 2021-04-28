@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="front/statique/css/style.css">
+    <title>Accueil</title>
+</head>
+<body class="bg-dark">
+    <div class="container-fluid">
+        <header class="row p-4 bg-primary">
+            <div class="container-fluid">
+                <div class="row align-items-center h-100 text-white">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <h1 class="display-2 text-center">
+                            JS Algo
+                        </h1>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <h2 class="display-4 text-center">
+                            Présentation des Algorithmes
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="row bg-dark">
+            <nav class="navbar  navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-dark bg-dark">
+                <span class="navbar-brand">JS Algo</span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="front/statique/html/exercice1.html">1er Algorithme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="front/statique/html/exercice2.html">2ème Algorithme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="front/statique/html/exercice3.html">3ème Algorithme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="front/statique/html/exercice4.html">4ème Algorithme</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <mainContainer class="row bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12"><!---xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-3-->
+                        <div class="card mt-3 mb-3">
+                            <div class="card-header">
+                                <h3 class="h5">Premier algorithme</h3>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tri selon l'âge</h5>
+                                <p>
+                                    Il s'agit de dénombrer les personnes d'âge strictement inférieur à 20 ans,
+                                    les personnes d'âge strictement supérieur à 40 ans
+                                    et celles dont l'âge est compris entre 20 ans et 40 ans (20 ans et 40 ans y compris).
+                                    Le programme doit demander les âges successifs.
+                                    Le comptage est arrêté dès la saisie d'un centenaire. Le centenaire est compté.
+                                    Donnez le programme Javascript correspondant qui affiche les résultats.
+                                </p>
+                                <p class="text-center">
+                                    <a href="front/statique/html/exercice1.html" class="btn btn-dark">Tester l'algorithme</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="card mt-3 mb-3">
+                            <div class="card-header">
+                                <h3 class="h5">Deuxième algorithme</h3>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Table de multiplication</h5>
+                                <p>
+                                    Ecrivez une fonction qui affiche une table de multiplication.
+                                    Votre fonction doit prendre un paramètre qui permet d'indiquer quelle table afficher.
+                                    Par exemple, TableMultiplication(7) doit afficher :
+                                    1 x 7 = 7
+                                    2 x 7 = 14
+                                    3 x 7 = 21 ...
+                                </p>
+                                <p class="text-center">
+                                    <a href="front/statique/html/exercice2.html" class="btn btn-dark">Tester l'algorithme</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="card mt-3 mb-3">
+                            <div class="card-header">
+                                <h3 class="h5">Troisième algorithme</h3>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Recherche dans un tableau</h5>
+                                <p>
+                                    Un prénom est saisi au clavier. On le recherche dans le tableau tab donné ci-après.
+                                    Si le prénom est trouvé, on l'élimine du tableau en décalant les cases qui le suivent, et en mettant à blanc la dernière case.
+                                    Si le prénom n'est pas trouvé un message d'erreur apparait et aucun prénom ne se supprime.
+                                    var tab = ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"];
+                                    ( exemple : ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", " "]; )
+                                </p>
+                                <p class="text-center">
+                                    <a href="front/statique/html/exercice3.html" class="btn btn-dark">Tester l'algorithme</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="card mt-3 mb-3">
+                            <div class="card-header">
+                                <h3 class="h5">Quatrième algorithme</h3>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Facturation</h5>
+                                <p>
+                                    A partir de la saisie du prix unitaire noté PRICE d'un produit et de la quantité commandée QUANTITY,
+                                    afficher le prix à payer BILL, en détaillant la remise DISCOUNT et le port PORT, sachant que :
+
+                                    SUM = ( PRICE * QUANTITY )
+                                    la remise est de 5% si SUM est compris entre 100 et 200 € et de 10% au-delà
+                                    le port est gratuit si le prix des produits ( le total remisé ) est supérieur à 500 €. Dans le cas contraire, le port est de 2%
+                                    la valeur minimale du port à payer est de 6 €
+                                    Testez tous les cas possibles afin de vous assurez que votre script fonctionne.
+
+                                    Ci-dessous, un jeu de tests :
+
+                                    Saisir 600 € et quantité = 1 : remise 10% (-60 €) soit 540,00 et frais port = 0; à payer : 540 €
+                                    Saisir 501 € et quantité = 1 : remise 10% (-50,1 €) soit 450,90 et frais port 2% (de 450,90 €) soit +9,01 € ; à payer : 450,90+9.01 = 459,91 €.
+                                    Saisir 100 € et quantité = 2 : 200 € donc remise 5% soit 190 € et frais de port 2% soit 3,8 € mini 6 €; à payer : 190+6 = 196 €
+                                    Saisir 3 € et quantité = 1 : remise 0, frais de port 2% soit 0.06 € donc le minimum de 6 € s'applique; à payer : 3+6 = 9 €
+                                </p>
+                                <p class="text-center">
+                                    <a href="front/statique/html/exercice4.html" class="btn btn-dark">Tester l'algorithme</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mainContainer>
+        <!--
+        <footer class="container-fluid text-white">
+            <div class="row p-4 bg-dark">
+    
+            </div>
+        </footer>
+        -->
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
